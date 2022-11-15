@@ -1,0 +1,23 @@
+---
+import Contact from '../components/contact';
+import Footer from '../components/footer';
+import HeroSection from '../components/heroSection';
+import ProjectsSection from '../components/project';
+import Services from '../components/services';
+import Testimonials from '../components/testimonials';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+  <HeroSection />
+  <ProjectsSection />
+  <hr class="sm:mx-32 mx-16 h-px border-px border-gray-500" />
+  <Testimonials client:load />
+  <hr class="sm:mx-32 mx-16 h-px border-px border-gray-500" />
+  <Services />
+  <hr class="sm:mx-32 mx-16 h-px border-px border-gray-500" />
+  <Contact />
+  <Footer />
+</Layout>
+
+<style></style>
