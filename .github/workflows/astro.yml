@@ -55,9 +55,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          cache: 'yarn'
-          cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
-      - run: npm install && npm run build
+      - run: yarn install && yarn build
         working-directory: ${{ env.BUILD_PATH }}
       - uses: actions/upload-pages-artifact@v1
         with:
