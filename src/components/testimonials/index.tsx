@@ -6,7 +6,7 @@ import 'swiper/css/autoplay';
 
 const testimonials = [
   {
-    companyLogo: 'publishFi.png',
+    companyLogo: 'PublishFi.png',
     companyLogoAlt: 'publishFi',
     text: 'Astraus has been extremely helpful in developing a great website for my agency, and their professional work has helped me stand out from the crowd.',
     clientImage: 'soham_chakraborty.jpg',
