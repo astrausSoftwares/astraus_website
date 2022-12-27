@@ -15,33 +15,33 @@ const posts = [
   },
   {
     title: 'Resturant & Bar',
-    href: '#',
+    href: 'https://resturant.astraus.co/',
     description:
       'A responsive website that offers customers the menu and prices, table reservation facility and other features...',
     imageUrl: 'resturant.png',
   },
   {
     title: 'Luxury Homes',
-    href: '#',
+    href: 'https://realestate.astraus.co/',
     description: 'This allows the user to view the propeties across the cities and has proven to boost up sales upto 70%...',
     imageUrl: 'luxury_homes.png',
   },
   {
-    title: 'CONST RUCTION',
-    href: '#',
+    title: 'CONSTRUCTION',
+    href: 'https://construction.astraus.co/',
     description: 'This is the landing page of a construction company, displays portfolio and their works',
     imageUrl: 'construction_company.png',
   },
 
   {
     title: 'E-commerce',
-    href: '#',
+    href: 'https://demoecom.astraus.co/',
     description: 'Ecommerce website for furniture and interior designing...',
     imageUrl: 'ecommerce.png',
   },
   {
     title: 'XFit',
-    href: '#',
+    href: 'https://fitness.astraus.co/',
     description: 'Gym and fitness website, allows clients to sign up for a plan and even watch workout videos live',
     imageUrl: 'gym.png',
   },
